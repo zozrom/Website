@@ -1,0 +1,35 @@
+
+                        /* Top_nav*/
+
+
+.top_nav{
+    width: 100%;/*Растягуеться на весь екран чтоб центрировать 1 top_nav_row*/
+    height: 78px;
+    background-color: #1d1a1a;
+    color: #d8d2d2;
+
+
+}
+
+.top_nav_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/* блок по ценру распоагаеться*/
+
+    height: 100%;/*Растягуеться на весь екран   чтоб центрировать 1 top_nav_row*/
+}
+.top_nav_row_left{
+    font-size: 12px;
+    font-weight: 500;
+}
+.top_nav_row_right{
+    display: flex;
+    align-items: center;
+}
+.top_nav_row_right img{
+    background-color: white;
+    border-radius: 5px;
+}
+.top_nav_row_right a:not(:last-child){
+    margin-right: 20px;
+}

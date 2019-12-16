@@ -1,0 +1,108 @@
+.header{
+height: 800px;
+width: 100%;
+background-color: #f3e1d5;/*Если картинка не прогрузит */
+background-image: url('../img/header_photo/header_background.jpg');
+background-size: cover; /*Eго ширина или высота равнялась ширине или высоте блока*/
+background-position: center;
+padding-top: 20px;
+}
+.header_nav_row{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 55px;
+}
+.header_btn{
+    background-color: #253ab3;
+    height: 65px;
+    width: 200px;
+    color: white;
+    font-family: 'Teko', sans-serif; 
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+
+    transition: background-color 0.2s ease-in;/*Плавний переход при наведении */
+}
+.header_btn:hover{
+    background-color: #2745eb; 
+}
+.header_nav {
+    color: #2e2d2b;
+    font-family: 'Teko';
+    font-size: 23px;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    font-weight: 600;
+}
+.header_nav_link{
+    color: #2e2d2b;
+    text-decoration: none;
+    margin-right: 52px;
+
+}
+.header_nav_link::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #111010;
+    margin: -23px;
+    transform: rotate(45deg);/*переварачуем квадатики*/
+}
+.header_nav_link:last-child{
+    margin-right: 0;
+}
+.header_nav_link:hover, .header_nav_link--active{
+    color: #2745eb ;
+}
+
+
+
+
+
+
+/* Header content*/
+.header_content {
+    max-width: 400px;
+}
+.header_content_title{
+    margin-bottom: 60px;
+        color: rgb(184, 34, 34);
+        font-family: 'Teko';
+        font-size: 68px;
+        font-weight: 700px;
+        line-height: 72px;
+        letter-spacing: 2.73px;
+        margin-left: -40px;
+}
+.header_content_btn{
+    height: 50px;
+    border: 3px solid #dd9e1f;
+    border-radius: 5px;
+        width: 200px;
+        text-align: center;
+        padding-top:8px ;
+        margin-top: 230px;
+        color: rgb(184, 34, 34);
+        font-weight: 700;
+        font-size: 25px;
+        font-family: 'Teko';
+        background-color: rgb(236, 230, 230);
+
+        transition: color 0.3s ease-in, border-color 0.3s ease-in/*Плавний переход при наведении */
+
+}
+.header_content a{
+    text-decoration: none;
+}
+.header_content_btn:hover{
+    color: #dd9e1f;
+    border-color:rgb(190, 41, 41); ;
+}

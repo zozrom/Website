@@ -1,0 +1,17 @@
+/*font-family: 'Teko', sans-serif;    Для заголовков 
+font-family: 'Montserrat', sans-serif;   Для всех  */ 
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{ /*Отвечает только за ширину и за центрирование!!!*/
+    width: 1060px;
+    margin:  auto ;
+}
